@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special For You, Sayang ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffb6c1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .message-box {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #f0f0f0;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #ff6b81;
+            text-align: left;
+        }
+
+        .gallery-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ff9ff3;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .photo-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .photo-caption {
+            padding: 10px;
+            font-size: 0.9rem;
+            color: #ffeaa7;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #dcdde1;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Our Special Moments ❤️</h1>
+        
+        <div class="message-box">
+            <p>Terima kasih sudah menjadi bagian terindah dalam perjalanan hidupku. Setiap detik yang dihabiskan bersamamu selalu berhasil membuatku merasa menjadi orang paling beruntung di dunia ini. Tetaplah di sini, menemani setiap langkah dan mimpiku, karena bersamamu adalah rumah terbaik yang pernah kutemukan. ✨</p>
+        </div>
+
+        <h2 class="gallery-title">Kenangan Indah Kita 📸</h2>
+        
+        <div class="photo-grid">
+            <!-- Foto 1 -->
+            <div class="photo-card">
+                <img src="foto1.jpg" alt="Kenangan 1">
+                <div class="photo-caption">Senyum terindahmu 😊</div>
+            </div>
+            <!-- Foto 2 -->
+            <div class="photo-card">
+                <img src="foto2.jpg" alt="Kenangan 2">
+                <div class="photo-caption">Waktu terbaik kita ✨</div>
+            </div>
+            <!-- Foto 3 -->
+            <div class="photo-card">
+                <img src="foto3.jpg" alt="Kenangan 3">
+                <div class="photo-caption">Selamanya bersama 🤍</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Made with endless love for you.
+        </div>
+    </div>
+
+</body>
+</html>
